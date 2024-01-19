@@ -1,0 +1,74 @@
+/* RESET SETTINGS */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* -----Header----- */
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  height: 4rem;
+  width: 100vw;
+  background-color: rgb(71, 71, 71);
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+}
+
+h1 {
+  margin-left: 1rem;
+  color: white;
+}
+
+nav > a {
+  margin-right: 0.7rem;
+  font-size: .7rem;
+  color: rgb(227, 187, 78);
+}
+
+/* -----End of HEADER----- */
+
+/* -----Start of MAIN----- */
+
+main {
+  min-height: 80vh;
+  min-width: 80vw;
+  background-color: cadetblue;
+}
+aside {
+    min-height: 80vh;
+    min-width: 10vw;
+    background-color: coral;
+}
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+body > div {
+    display: flex;
+}
+
+/* -----End of MAIN----- */
+
+/* -----Start of FOOTER----- */
+
+footer {
+    width: 100vw;
+    background-color: rgb(71, 71, 71);
+    height: 10vh;
+}
